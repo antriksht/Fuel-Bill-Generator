@@ -9,3 +9,9 @@ pnpm install && pnpm run dev
 ```
 
 in `App.jsx` modify arguments as needed (will add these in UI later)
+
+# Sample
+
+Sample generated UI
+
+![screenshot](/screenshot.png)
