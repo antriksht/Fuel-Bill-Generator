@@ -6,7 +6,7 @@ Generate fuel bills (Fake)
 
 `pnpm install && pnpm run dev`
 
-In \'App.jsx\' modify arguments as needed (will add these in UI later)
+Modify \'App.jsx\' to make the necessary changes.
 
 # Sample
 
