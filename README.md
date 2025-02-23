@@ -4,14 +4,12 @@ Generate fuel bills (Fake)
 
 # Setup
 
-```
-pnpm install && pnpm run dev
-```
+`pnpm install && pnpm run dev`
 
-in `App.jsx` modify arguments as needed (will add these in UI later)
+In \'App.jsx\' modify arguments as needed (will add these in UI later)
 
 # Sample
 
 Sample generated UI
 
-![screenshot](/screenshot.png)
+![screenshot](screenshot.png)
