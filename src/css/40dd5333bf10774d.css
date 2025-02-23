@@ -316,7 +316,7 @@ body {
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
+    --tw-blur: blur(.3px) ;
     --tw-brightness: ;
     --tw-contrast: ;
     --tw-grayscale: ;
@@ -325,7 +325,7 @@ body {
     --tw-saturate: ;
     --tw-sepia: ;
     --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
+    --tw-backdrop-blur: blur(90px);
     --tw-backdrop-brightness: ;
     --tw-backdrop-contrast: ;
     --tw-backdrop-grayscale: ;
@@ -943,6 +943,11 @@ body {
     margin-right: 1rem
 }
 
+.mx-3 {
+    margin-left: .50rem;
+    margin-right: .50rem
+}
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto
@@ -1221,6 +1226,9 @@ body {
 
 .mt-\[60px\] {
     margin-top: 60px
+}
+.mt-\[40px\] {
+    margin-top: 40px
 }
 
 .mt-auto {
@@ -3693,6 +3701,10 @@ body {
     opacity: .15
 }
 
+.opacity-25 {
+    opacity: .25
+}
+
 .opacity-35 {
     opacity: .35
 }
@@ -3709,6 +3721,10 @@ body {
     opacity: .75
 }
 
+.opacity-80 {
+    opacity: .80
+}
+
 .opacity-90 {
     opacity: .9
 }
@@ -3717,6 +3733,11 @@ body {
     background-blend-mode: multiply
 }
 
+.mix-blend-multiply {
+    mix-blend-mode: multiply;
+}  
+
+  
 .bg-blend-overlay {
     background-blend-mode: overlay
 }

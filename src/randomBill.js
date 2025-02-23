@@ -58,12 +58,14 @@ export default function generateRandomBillData({
     const invoice_no = Math.floor(
       getRandomValue(startInvoiceRange, endInvoiceRange)
     );
+    const pump_no = Math.floor(Math.random() * 6) + 1; // Generate random pump_no between 1 and 6
     const station =
       fuelStation.split("|")[
         Math.floor(Math.random() * fuelStation.split("|").length)
       ];
 
     result.push({
+      pump_no, // Include pump_no in the result object
       fuelStation: station,
       date,
       time,
